@@ -8,8 +8,12 @@ int main(){
   
   printf("Tossing a coin...\n");
   srand(time(NULL));
- 
-
+  
+  
+  printf("Who are you? ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+  
   
   for(i = 0; i < 3; i++){
     r = rand() % 2 + 1;
